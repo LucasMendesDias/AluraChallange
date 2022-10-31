@@ -1,0 +1,57 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding-top:5em;
+    text-align: center;
+}
+.banner__texto{
+    color: var(--vinho);
+    font-size: 16px;
+    font-weight: 600;
+}
+.banner__titulo{
+    color:var(--preto);
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 1em;
+}
+.banner__mensagem{
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 400;
+    flex-basis: 50px;
+    margin: 2em 20%;
+}
+/* segunda parte do banner */
+.dados{
+    display: flex;
+    padding: 3em 4em; 
+}
+.dados__numeros{
+    display: flex;
+  
+}
+.dados__info--sobretexto{
+    color: var(--vinho);
+    font-size: 60px;
+    font-weight: 600;
+}
+.dados__info{
+    margin-right: 1.8em;
+    flex-direction: column;
+    margin-right: 1.8em;
+    display: flex;
+    flex-basis: 100%;
+}
+.dados__info--titulo{
+    color: var(--preto);
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 1em;
+}
+.dados__info--texto{
+    color:var(--cinza);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 1em;
+}

@@ -1,0 +1,18 @@
+
+@import url(/Css/cabecalho.css);
+@import url(/Css/banner.css);
+@import url(/Css/vagas.css);
+@import url(/Css/footer.css);
+
+:root {
+    --branco: #FFFFFF;
+    --vinho: #8E2424;
+    --cinza: #667085;
+    --pretoCinza: #3A404E;
+    --preto:#101828; 
+    --fundorose: rgba(196, 25, 25, 0.03);
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}

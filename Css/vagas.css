@@ -1,0 +1,109 @@
+.vaga{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.vaga__titutlo{
+    color: var(--vinho);
+    font-weight: 500;
+    font-size: 14px;
+
+}
+.vaga__subtitulo{
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 600;
+    margin: 1em 0
+}
+.vaga__texto{
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 20px;
+}
+.vaga__img{
+    padding: 3em 5em 0 5em
+}
+/* parte de baixo da img */
+.areas{
+    margin: 4em 25%;
+    display: flex;
+    flex-direction: column;
+}
+.areas__titulo{
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    margin: 2em 0;
+}
+.areas__salarios{
+    border-radius: 16px;
+    background-color: var(--branco);
+    border: 1px solid #EAECF0;
+    display: flex;
+    flex-direction: column;
+    height: 136px;
+    justify-content: space-evenly;
+    margin: 1em 0;
+    width: 768px;
+}
+.areas__salarios--titulo{
+    color: var(--preto);
+    font-weight: 500;
+    padding-left: 1em;
+    text-align: left;
+
+}
+.areas__salarios--tempo {
+    color: var(--cinza);
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 500;    
+    padding-left: 1em;
+    text-align: left;
+}
+.areas__salarios--salario{
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 1em;
+}
+/* Colaboradores */
+
+.colaboradores{
+    padding: 3em 7em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.colaboradores div{
+
+    background: #C3191908;
+    padding: 4em 2em;
+    
+}
+.colaboradores__titulo{
+    color: var(--vinho);
+    font-size: 14px;
+    font-weight: 600;
+}
+.colaboradores__subtitulo{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 1em 0;
+}
+.colaboradores__img{
+     width: 5%;
+}
+.coloboradores__nome{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1em 0;
+    
+}
+.colaboradores__funcao{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
