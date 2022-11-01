@@ -1,8 +1,7 @@
-
-@import url(/Css/cabecalho.css);
-@import url(/Css/banner.css);
-@import url(/Css/vagas.css);
-@import url(/Css/footer.css);
+@import url("Css/cabecalho.css");
+@import url("Css/vagas.css");
+@import url("Css/footer.css");
+@import url("Css/banner.css");
 
 :root {
     --branco: #FFFFFF;
